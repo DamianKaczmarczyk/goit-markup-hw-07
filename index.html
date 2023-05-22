@@ -457,35 +457,35 @@
         <h3 class="modal__title">Zostaw swoje dane w formularzu poniżej</h3>
         <form class="modal__form">
           <div class="control">
-            <label class="control__label" for="name"> Imie</label>
-            <label class="control__input">
+            <label class="control__label">
+              Imie
+              <input class="control__input" type="text" name="name" id="name" required />
               <svg class="control__svg" width="18" height="18">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
-              <input type="text" name="name" id="name" required />
             </label>
           </div>
           <div class="control">
-            <label class="control__label" for="tel">Telefon</label>
-            <label class="control__input">
+            <label class="control__label"
+              >Telefon
+              <input class="control__input" type="tel" name="phone" id="tel" required />
               <svg class="control__svg" width="18" height="18">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
-              <input type="tel" name="phone" id="tel" required />
             </label>
           </div>
           <div class="control">
-            <label class="control__label" for="email">Email</label>
-            <label class="control__input">
+            <label class="control__label" for="email"
+              >Email
+              <input class="control__input" type="email" name="email" id="email" required />
               <svg class="control__svg" width="18" height="18">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
-              <input type="email" name="email" id="email" required />
             </label>
           </div>
           <div class="control">
-            <label class="control__label" for="textarea">Komentarz</label>
-            <label class="modal-label">
+            <label class="modal-label"
+              >Komentarz
               <textarea
                 id="textarea"
                 class="control__textarea"
