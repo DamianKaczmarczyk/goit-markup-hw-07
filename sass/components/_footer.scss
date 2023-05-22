@@ -18,9 +18,10 @@
   }
   &__contact{
   &--item {
-    padding-bottom: 9px;
+    padding-bottom: 9px;;
   }
   &--adress {
+    font-style: normal;
     font-family:$main-font;
     color:$focus-color;
     &:hover,
@@ -29,6 +30,7 @@
     }
   }
   &--mailphone {
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     &:hover,
     &:focus {
